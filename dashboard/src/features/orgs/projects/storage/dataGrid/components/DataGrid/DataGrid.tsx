@@ -137,7 +137,9 @@ function DataGrid<TColumnData extends object>(
       {...dataGridProps}
     >
       <>
-        {controls}
+        {typeof controls === 'function'
+          ? controls(dataGridProps.selectedFlatRows)
+          : controls}
 
         {columns.length === 0 && !loading && (
           <DataBrowserEmptyState
