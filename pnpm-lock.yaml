@@ -369,13 +369,13 @@ importers:
         version: 0.416.0(react@18.2.0)
       next:
         specifier: ^14.2.23
-        version: 14.2.23(@babel/core@7.26.7)(@playwright/test@1.47.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(sass@1.32.0)
+        version: 14.2.23(@babel/core@7.26.7)(@playwright/test@1.50.1)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(sass@1.32.0)
       next-nprogress-bar:
         specifier: ^2.4.4
         version: 2.4.4
       next-seo:
         specifier: ^6.6.0
-        version: 6.6.0(next@14.2.23(@babel/core@7.26.7)(@playwright/test@1.47.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(sass@1.32.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        version: 6.6.0(next@14.2.23(@babel/core@7.26.7)(@playwright/test@1.50.1)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(sass@1.32.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       next-themes:
         specifier: ^0.3.0
         version: 0.3.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
@@ -495,8 +495,8 @@ importers:
         specifier: ^12.3.4
         version: 12.3.4
       '@playwright/test':
-        specifier: 1.47.0
-        version: 1.47.0
+        specifier: ^1.50.1
+        version: 1.50.1
       '@storybook/addon-actions':
         specifier: ^6.5.16
         version: 6.5.16(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
@@ -673,7 +673,7 @@ importers:
         version: 3.0.4
       storybook-addon-next-router:
         specifier: ^4.0.2
-        version: 4.0.2(@storybook/addon-actions@6.5.16(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(@storybook/addons@6.5.16(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(@storybook/client-api@6.5.16(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(next@14.2.23(@babel/core@7.26.7)(@playwright/test@1.47.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(sass@1.32.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        version: 4.0.2(@storybook/addon-actions@6.5.16(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(@storybook/addons@6.5.16(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(@storybook/client-api@6.5.16(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(next@14.2.23(@babel/core@7.26.7)(@playwright/test@1.50.1)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(sass@1.32.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       tailwindcss:
         specifier: ^3.4.17
         version: 3.4.17(ts-node@10.9.2(@swc/core@1.10.12(@swc/helpers@0.5.5))(@types/node@16.18.125)(typescript@5.7.3))
@@ -5744,11 +5744,6 @@ packages:
   '@pkgjs/parseargs@0.11.0':
     resolution: {integrity: sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==}
     engines: {node: '>=14'}
-
-  '@playwright/test@1.47.0':
-    resolution: {integrity: sha512-SgAdlSwYVpToI4e/IH19IHHWvoijAYH5hu2MWSXptRypLSnzj51PcGD+rsOXFayde4P9ZLi+loXVwArg6IUkCA==}
-    engines: {node: '>=18'}
-    hasBin: true
 
   '@playwright/test@1.50.1':
     resolution: {integrity: sha512-Jii3aBg+CEDpgnuDxEp/h7BimHcUTDlpEtce89xEumlJ5ef2hqepZ+PWp1DDpYC/VO9fmWVI1IlEaoI5fK9FXQ==}
@@ -14625,18 +14620,8 @@ packages:
     resolution: {integrity: sha512-nDywThFk1i4BQK4twPQ6TA4RT8bDY96yeuCVBWL3ePARCiEKDRSrNGbFIgUJpLp+XeIR65v8ra7WuJOFUBtkMA==}
     engines: {node: '>=8'}
 
-  playwright-core@1.47.0:
-    resolution: {integrity: sha512-1DyHT8OqkcfCkYUD9zzUTfg7EfTd+6a8MkD/NWOvjo0u/SCNd5YmY/lJwFvUZOxJbWNds+ei7ic2+R/cRz/PDg==}
-    engines: {node: '>=18'}
-    hasBin: true
-
   playwright-core@1.50.1:
     resolution: {integrity: sha512-ra9fsNWayuYumt+NiM069M6OkcRb1FZSK8bgi66AtpFoWkg2+y0bJSNmkFrWhMbEBbVKC/EruAHH3g0zmtwGmQ==}
-    engines: {node: '>=18'}
-    hasBin: true
-
-  playwright@1.47.0:
-    resolution: {integrity: sha512-jOWiRq2pdNAX/mwLiwFYnPHpEZ4rM+fRSQpRHwEwZlP2PUANvL3+aJOF/bvISMhFD30rqMxUB4RJx9aQbfh4Ww==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -23596,10 +23581,6 @@ snapshots:
 
   '@pkgjs/parseargs@0.11.0':
     optional: true
-
-  '@playwright/test@1.47.0':
-    dependencies:
-      playwright: 1.47.0
 
   '@playwright/test@1.50.1':
     dependencies:
@@ -35345,9 +35326,9 @@ snapshots:
     dependencies:
       nprogress-v2: 1.0.4
 
-  next-seo@6.6.0(next@14.2.23(@babel/core@7.26.7)(@playwright/test@1.47.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(sass@1.32.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
+  next-seo@6.6.0(next@14.2.23(@babel/core@7.26.7)(@playwright/test@1.50.1)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(sass@1.32.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
     dependencies:
-      next: 14.2.23(@babel/core@7.26.7)(@playwright/test@1.47.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(sass@1.32.0)
+      next: 14.2.23(@babel/core@7.26.7)(@playwright/test@1.50.1)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(sass@1.32.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
 
@@ -35355,33 +35336,6 @@ snapshots:
     dependencies:
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
-
-  next@14.2.23(@babel/core@7.26.7)(@playwright/test@1.47.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(sass@1.32.0):
-    dependencies:
-      '@next/env': 14.2.23
-      '@swc/helpers': 0.5.5
-      busboy: 1.6.0
-      caniuse-lite: 1.0.30001696
-      graceful-fs: 4.2.11
-      postcss: 8.4.31
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
-      styled-jsx: 5.1.1(@babel/core@7.26.7)(react@18.2.0)
-    optionalDependencies:
-      '@next/swc-darwin-arm64': 14.2.23
-      '@next/swc-darwin-x64': 14.2.23
-      '@next/swc-linux-arm64-gnu': 14.2.23
-      '@next/swc-linux-arm64-musl': 14.2.23
-      '@next/swc-linux-x64-gnu': 14.2.23
-      '@next/swc-linux-x64-musl': 14.2.23
-      '@next/swc-win32-arm64-msvc': 14.2.23
-      '@next/swc-win32-ia32-msvc': 14.2.23
-      '@next/swc-win32-x64-msvc': 14.2.23
-      '@playwright/test': 1.47.0
-      sass: 1.32.0
-    transitivePeerDependencies:
-      - '@babel/core'
-      - babel-plugin-macros
 
   next@14.2.23(@babel/core@7.26.7)(@playwright/test@1.50.1)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(sass@1.32.0):
     dependencies:
@@ -36007,15 +35961,7 @@ snapshots:
     dependencies:
       find-up: 3.0.0
 
-  playwright-core@1.47.0: {}
-
   playwright-core@1.50.1: {}
-
-  playwright@1.47.0:
-    dependencies:
-      playwright-core: 1.47.0
-    optionalDependencies:
-      fsevents: 2.3.2
 
   playwright@1.50.1:
     dependencies:
@@ -38526,12 +38472,12 @@ snapshots:
 
   store2@2.14.4: {}
 
-  storybook-addon-next-router@4.0.2(@storybook/addon-actions@6.5.16(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(@storybook/addons@6.5.16(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(@storybook/client-api@6.5.16(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(next@14.2.23(@babel/core@7.26.7)(@playwright/test@1.47.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(sass@1.32.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
+  storybook-addon-next-router@4.0.2(@storybook/addon-actions@6.5.16(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(@storybook/addons@6.5.16(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(@storybook/client-api@6.5.16(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(next@14.2.23(@babel/core@7.26.7)(@playwright/test@1.50.1)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(sass@1.32.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
     dependencies:
       '@storybook/addon-actions': 6.5.16(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       '@storybook/addons': 6.5.16(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       '@storybook/client-api': 6.5.16(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
-      next: 14.2.23(@babel/core@7.26.7)(@playwright/test@1.47.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(sass@1.32.0)
+      next: 14.2.23(@babel/core@7.26.7)(@playwright/test@1.50.1)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(sass@1.32.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       tslib: 2.4.0
