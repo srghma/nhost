@@ -1,4 +1,5 @@
 const path = require('path');
+const { NextFederationPlugin } = require('@module-federation/nextjs-mf');
 const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
 });
@@ -19,6 +20,25 @@ const cspHeader = `
 `;
 
 module.exports = withBundleAnalyzer({
+  webpack: (config, options) => {
+    console.log('isServer:', options.isServer);
+    config.plugins.push(
+      new NextFederationPlugin({
+        name: 'dashboard',
+        filename: 'static/chunks/remoteEntry.js',
+        remotes: {
+          next2: `next2@http://localhost:3001/_next/static/chunks/remoteEntry.js`,
+        },
+        exposes: {
+          // Expose modules from the Host application
+        },
+        shared: {
+          // Shared dependencies between the Host and Remote applications
+        },
+      }),
+    );
+    return config;
+  },
   reactStrictMode: false,
   swcMinify: false,
   output: 'standalone',
