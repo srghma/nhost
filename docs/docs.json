@@ -53,6 +53,13 @@
               "/platform/tls",
               "/platform/billing"
             ]
+          },
+          {
+            "group": "Getting Involved",
+            "pages": [
+              "/involved/coc",
+              "/involved/"
+            ]
           }
         ]
       },
@@ -90,7 +97,30 @@
         ]
       },
       {
-        "tab": "Blogs",
+        "tab": "Local Development",
+        "groups": [
+          {
+            "group": "Getting started",
+            "pages": [
+              "introduction"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Changelog",
+        "groups": [
+          {
+            "group": "Getting started",
+            "pages": [
+              "introduction"
+            ]
+          }
+        ]
+      },
+
+      {
+        "tab": "Blog",
         "groups": [
           {
             "group": "Getting started",
