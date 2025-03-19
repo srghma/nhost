@@ -36,6 +36,23 @@
               "/extend/functions",
               "/extend/run"
             ]
+          },
+          {
+            "group": "Platform",
+            "pages": [
+              "/platform/overview",
+              "/platform/subdomain",
+              "/platform/compute",
+              "/platform/replicas",
+              "/platform/metrics",
+              "/platform/env",
+              "/platform/secrets",
+              "/platform/deployments",
+              "/platform/domains",
+              "/platform/limiter",
+              "/platform/tls",
+              "/platform/billing"
+            ]
           }
         ]
       },
