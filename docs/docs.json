@@ -29,6 +29,13 @@
               "/nhost-stack/storage",
               "/nhost-stack/graphite"
             ]
+          },
+          {
+            "group": "Nhost Extend",
+            "pages": [
+              "/extend/functions",
+              "/extend/run"
+            ]
           }
         ]
       },
