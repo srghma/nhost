@@ -11,124 +11,98 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Documentation",
-        "groups": [
+        "tab": "Welcome",
+        "pages": ["introduction" ]
+      },
+      {
+        "tab": "Getting Started",
+        "dropdowns": [
           {
-            "group": "Home",
-            "pages": [
-              "introduction"
-            ]
-          },
-          {
-            "group": "Nhost Stack",
-            "pages": [
-              "/nhost-stack/overview",
-              "/nhost-stack/database",
-              "/nhost-stack/graphqlapi",
-              "/nhost-stack/auth",
-              "/nhost-stack/storage",
-              "/nhost-stack/graphite"
-            ]
-          },
-          {
-            "group": "Nhost Extend",
+            "dropdown": "Welcome",
+            "icon": "handshake",
             "pages": [
               "/extend/functions",
               "/extend/run"
             ]
           },
           {
-            "group": "Platform",
+            "dropdown": "Quickstart Guides",
+            "icon": "book",
+            "pages": [
+              "/platform/compute",
+              "/platform/env"
+            ]
+          },
+          {
+            "dropdown": "Tutorials",
+            "icon": "book",
+            "pages": [
+              "/platform/compute",
+              "/platform/env"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Products",
+        "dropdowns": [
+          {
+            "dropdown": "Nhost Stack",
+            "icon": "microchip",
+            "pages": [
+              "/nhost-stack/overview",
+              "/nhost-stack/auth",
+              "/nhost-stack/database",
+              "/nhost-stack/graphite",
+              "/nhost-stack/graphqlapi",
+              "/nhost-stack/storage"
+            ]
+          },
+          {
+            "dropdown": "Platform",
+            "icon": "robot",
             "pages": [
               "/platform/overview",
-              "/platform/subdomain",
               "/platform/compute",
-              "/platform/replicas",
-              "/platform/metrics",
-              "/platform/env",
-              "/platform/secrets",
               "/platform/deployments",
               "/platform/domains",
+              "/platform/env",
               "/platform/limiter",
+              "/platform/metrics",
+              "/platform/replicas",
+              "/platform/secrets",
               "/platform/tls",
+              "/platform/subdomain",
               "/platform/billing"
             ]
           },
           {
-            "group": "Getting Involved",
+            "dropdown": "Local Development",
+            "icon": "computer",
             "pages": [
-              "/community/coc",
-              "/community/involved"
+              "/nhost-stack/overview"
             ]
-          }
-        ]
-      },
-      {
-        "tab": "Reference",
-        "groups": [
+          },
           {
-            "group": "Blah",
+            "dropdown": "Reference",
+            "icon": "terminal",
             "pages": [
-              "api-reference/index"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Guides & Tutorials",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "introduction"
+              "/platform/reference"
             ]
           }
         ]
       },
       {
         "tab": "Community",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "introduction"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Local Development",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "introduction"
-            ]
-          }
-        ]
+        "pages": ["/community/coc", "/community/involved" ]
       },
       {
         "tab": "Changelog",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "introduction"
-            ]
-          }
-        ]
+        "pages": ["changelog" ]
       },
-
       {
         "tab": "Blog",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "introduction"
-            ]
-          }
-        ]
+        "href":"https://nhost.io/blog"
       }
     ]
   },
