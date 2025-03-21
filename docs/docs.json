@@ -18,11 +18,12 @@
         "tab": "Getting Started",
         "dropdowns": [
           {
-            "dropdown": "Welcome",
-            "icon": "handshake",
+            "dropdown": "Quickstart",
+            "icon": "house",
             "pages": [
-              "/extend/functions",
-              "/extend/run"
+              "/quickstart/home",
+              "/quickstart/react",
+              "/quickstart/nextjs"
             ]
           },
           {
@@ -47,50 +48,72 @@
         "tab": "Products",
         "dropdowns": [
           {
-            "dropdown": "Nhost Stack",
-            "icon": "microchip",
+            "dropdown": "Authentication",
+            "icon": "lock",
             "pages": [
-              "/nhost-stack/overview",
               "/nhost-stack/auth",
-              "/nhost-stack/database",
-              "/nhost-stack/graphite",
-              "/nhost-stack/graphqlapi",
-              "/nhost-stack/storage"
+              "/nhost-stack/authTutorial"
             ]
           },
           {
-            "dropdown": "Platform",
+            "dropdown": "Database",
+            "icon": "database",
+            "pages": [
+              "/nhost-stack/database"
+            ]
+          },
+          {
+            "dropdown": "Graphite",
             "icon": "robot",
             "pages": [
-              "/platform/overview",
-              "/platform/compute",
-              "/platform/deployments",
-              "/platform/domains",
-              "/platform/env",
-              "/platform/limiter",
-              "/platform/metrics",
-              "/platform/replicas",
-              "/platform/secrets",
-              "/platform/tls",
-              "/platform/subdomain",
-              "/platform/billing"
+              "/nhost-stack/graphite"
+            ]
+          },
+          {
+            "dropdown": "GraphQL API",
+            "icon": "gear-code",
+            "pages": [
+              "/nhost-stack/graphqlapi"
+            ]
+          },
+          {
+            "dropdown": "Storage",
+            "icon": "warehouse-full",
+            "pages": [
+              "/nhost-stack/storage"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Platform",
+        "dropdowns": [
+          {
+            "dropdown": "Cloud",
+            "icon": "handshake",
+            "pages": [
+              "/platform/Cloud"
             ]
           },
           {
             "dropdown": "Local Development",
             "icon": "computer",
             "pages": [
-              "/nhost-stack/overview"
+              "/platform/local"
             ]
           },
           {
-            "dropdown": "Reference",
-            "icon": "terminal",
+            "dropdown": "Self-Hosting",
+            "icon": "handshake",
             "pages": [
-              "/platform/reference"
+              "/platform/selfHosting"
             ]
           }
         ]
+      },
+      {
+        "tab": "Reference",
+        "pages": ["/api-reference/index" ]
       },
       {
         "tab": "Community",
