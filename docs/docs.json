@@ -26,6 +26,15 @@
               "/quickstart/vue",
               "/quickstart/reactnative"
             ]
+          },
+          {
+            "dropdown": "Tutorials",
+            "icon": "book",
+            "pages": [
+              "/tutorials/react",
+              "/tutorials/nextjs",
+              "/tutorials/vue"
+            ]
           }
         ]
       }
