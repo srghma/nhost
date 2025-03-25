@@ -123,6 +123,21 @@
               "/products/storage/cdn",
               "/products/storage/antivirus"
             ]
+          },
+          {
+            "dropdown": "Run",
+            "icon":"bolt",
+            "pages":[
+              "/products/run/getting-started",
+              "/products/run/configuration",
+              "/products/run/networking",
+              "/products/run/health-checks",
+              "/products/run/resources",
+              "/products/run/registry",
+              "/products/run/local-development",
+              "/products/run/configuration-overlays",
+              "/products/run/cli-deployments"
+            ]
           }
         ]
       },
