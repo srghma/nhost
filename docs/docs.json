@@ -94,6 +94,17 @@
               "/products/database/performance",
               "/products/database/upgrade-major"
             ]
+          },
+          {
+            "dropdown": "AI",
+            "icon":"robot",
+            "pages":[
+              "/products/ai/enabling-service",
+              "/products/ai/local-development",
+              "/products/ai/auto-embeddings",
+              "/products/ai/assistants",
+              "/products/ai/dev-assistant"
+            ]
           }
         ]
       }
