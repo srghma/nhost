@@ -82,6 +82,18 @@
               "/products/auth/email-templates",
               "/products/auth/custom-jwts"
             ]
+          },
+          {
+            "dropdown": "Database",
+            "icon":"database",
+            "pages":[
+              "/products/database/configuring-postgres",
+              "/products/database/backups",
+              "/products/database/access",
+              "/products/database/extensions",
+              "/products/database/performance",
+              "/products/database/upgrade-major"
+            ]
           }
         ]
       }
