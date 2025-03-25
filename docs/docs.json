@@ -13,6 +13,21 @@
       {
         "tab": "Welcome",
         "pages": ["introduction" ]
+      },
+      {
+        "tab": "Getting Started",
+        "dropdowns": [
+          {
+            "dropdown": "Quickstart",
+            "icon": "house",
+            "pages": [
+              "/quickstart/react",
+              "/quickstart/nextjs",
+              "/quickstart/vue",
+              "/quickstart/reactnative"
+            ]
+          }
+        ]
       }
     ]
   },
