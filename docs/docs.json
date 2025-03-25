@@ -105,6 +105,15 @@
               "/products/ai/assistants",
               "/products/ai/dev-assistant"
             ]
+          },
+          {
+            "dropdown": "GraphQL API",
+            "icon":"cloud-bolt",
+            "pages":[
+              "/products/api/configuring-hasura",
+              "/products/api/permissions",
+              "/products/api/advanced-features"
+            ]
           }
         ]
       }
