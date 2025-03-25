@@ -125,6 +125,23 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "Platform",
+        "dropdowns": [
+          {
+            "dropdown": "Local Development",
+            "icon": "house",
+            "pages": [
+              "/platform/cli/local-development",
+              "/platform/cli/subdomain",
+              "/platform/cli/migrate-config",
+              "/platform/cli/multiple-projects",
+              "/platform/cli/configuration-overlays",
+              "/platform/cli/seeds"
+            ]
+          }
+        ]
       }
     ]
   },
