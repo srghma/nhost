@@ -114,6 +114,15 @@
               "/products/api/permissions",
               "/products/api/advanced-features"
             ]
+          },
+          {
+            "dropdown": "Storage",
+            "icon":"warehouse",
+            "pages":[
+              "/products/storage/overview",
+              "/products/storage/cdn",
+              "/products/storage/antivirus"
+            ]
           }
         ]
       }
