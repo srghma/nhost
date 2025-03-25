@@ -125,6 +125,14 @@
             ]
           },
           {
+            "dropdown": "Functions",
+            "icon":"gears",
+            "pages":[
+              "/products/functions/overview",
+              "/products/functions/runtimes"
+            ]
+          },
+          {
             "dropdown": "Run",
             "icon":"bolt",
             "pages":[
