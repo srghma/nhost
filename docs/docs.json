@@ -37,6 +37,53 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "Products",
+        "dropdowns": [
+          {
+            "dropdown": "Authentication",
+            "icon": "lock",
+            "pages": [
+              "/products/auth/overview",
+              "/products/auth/users",
+              "/products/auth/jwt",
+              {
+                "group": "Social Sign In",
+                "icon": "at",
+                "pages": [
+                {
+                  "group": "Social Providers",
+                  "icon": "at",
+                  "pages": [
+                    "products/auth/social/sign-in-apple",
+                    "products/auth/social/sign-in-azuread", 
+                    "products/auth/social/sign-in-discord",
+                    "products/auth/social/sign-in-facebook",
+                    "products/auth/social/sign-in-github",
+                    "products/auth/social/sign-in-google",
+                    "products/auth/social/sign-in-linkedin",
+                    "products/auth/social/sign-in-spotify",
+                    "products/auth/social/sign-in-twitch",
+                    "products/auth/social/sign-in-workos"
+                  ]
+                }
+              ]
+              },
+              "/products/auth/social-connect",
+              "/products/auth/sign-in-email-password",
+              "/products/auth/sign-in-otp",
+              "/products/auth/sign-in-magic-link",
+              "/products/auth/sign-in-sms-otp",
+              "/products/auth/webauthn",
+              "/products/auth/idtokens",
+              "/products/auth/elevated-permissions",
+              "/products/auth/bot-protection",
+              "/products/auth/email-templates",
+              "/products/auth/custom-jwts"
+            ]
+          }
+        ]
       }
     ]
   },
