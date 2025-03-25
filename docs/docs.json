@@ -512,6 +512,20 @@
             ]
           }
         ]
+      },
+      {
+        "tab":"Community",
+        "icon":"users-line",
+        "pages":["/community/coc", "/community/getting-involved"]
+      },
+      {
+        "tab":"Changelog",
+        "icon":"file-lines",
+        "pages":["/changelog"]
+      },
+      {
+        "tab": "Blog",
+        "href":"https://nhost.io/blog"
       }
     ]
   },
